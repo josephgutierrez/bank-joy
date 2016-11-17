@@ -1,0 +1,23 @@
+.title h1,
+.sub-title h2,
+.sub-title h4 {
+  text-align: center;
+}
+.sub-title h2,
+.sub-title h4 {
+  font-family: "Source Sans Pro";
+}
+.title h1 {
+  font-size: 52px;
+  font-family: "Arvo", serf;
+}
+.sub-title h2 {
+  font-size: 60px;
+  font-weight: 200;
+}
+.sub-title h4 {
+  margin-top: -20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
