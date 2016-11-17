@@ -1,14 +1,19 @@
-.container {
-  background-image: url("");
-}
+/*.container {
+  background-image: url("https://www.bankjoy.com/assets/images/backgrounds/background.jpg");
+  background-position: center top fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}*/
 .title h1,
 .sub-title h2,
-.sub-title h4 {
+.sub-title h4,
+.demo {
   text-align: center;
 }
 .sub-title h2,
 .sub-title h4,
-.contact {
+.contact,
+.demo {
   font-family: "Source Sans Pro";
 }
 .title h1 {
@@ -40,9 +45,26 @@
   font-size: 16px;
   letter-spacing: .3px;
 }
+.demo {
+  text-decoration: none;
+  margin: 45px auto;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #5170DD;
+  padding-top: 13px;
+  padding-bottom: 17px;
+  width: 202px;
+  border-radius: 50px;
+}
 i {
   margin-right: 10px;
 }
 a {
   text-decoration: none;
 }
+/*a:hover,
+a:link,
+a:visited,
+a:active {
+  color: #fff;
+}*/
