@@ -1,3 +1,6 @@
+.container {
+  width: 1200px;
+}
 .title h1,
 .sub-title h2,
 .sub-title h4,
@@ -49,6 +52,49 @@
   padding-bottom: 17px;
   width: 202px;
   border-radius: 50px;
+}
+.phones {
+  position: relative;
+  margin-top: 70px;
+}
+.phone-1,
+.phone-2,
+.phone-3 {
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+}
+.phone-1 {
+  z-index: 5;
+  margin: 0 auto;
+  right: 42%;
+  top: 50px;
+  left: 0;
+  background-image: url("https://www.bankjoy.com/assets/images/phones/header-phone-left@2x.png");
+  width: 310px;
+  height: 632.4px;
+  box-shadow: inset -120px 0 50px rgba(0,0,0,.3);
+}
+.phone-2 {
+  z-index: 7;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+  top: 0;
+  background-image: url("https://www.bankjoy.com/assets/images/phones/header-phone-center@2x.png");
+  width: 330px;
+  height: 673.2px;
+}
+.phone-3 {
+  z-index: 6;
+  margin: 0 auto;
+  left: 42%;
+  top: 50px;
+  right: 0;
+  background-image: url("https://www.bankjoy.com/assets/images/phones/header-phone-right@2x.png");
+  width: 310px;
+  height: 632.4px;
+  box-shadow: inset 120px 0 30px rgba(0,0,0,.3);
 }
 i {
   margin-right: 10px;
