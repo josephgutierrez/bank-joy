@@ -1,4 +1,26 @@
+.page-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("https://www.bankjoy.com/assets/images/backgrounds/background.jpg");
+  background-size: cover;
+  background-position: top center;
+  height: 100vh;
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(61,70,100,.86);
+}
 .container {
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  height: 100vh;
   width: 1200px;
 }
 .title h1,
@@ -17,7 +39,7 @@
   font-size: 53px;
   font-family: "Arvo", serf;
   font-weight: 400;
-  margin-top: 100px;
+  margin-top: 95px;
   letter-spacing: -.7px;
 }
 .sub-title h2 {
@@ -34,19 +56,20 @@
   position: absolute;
   right: 55px;
   top: 30px;
+  font-weight: 400;
 }
 .contact ul li {
   list-style-type: none;
   display: inline;
   margin: 8px;
-  font-size: 16px;
+  font-size: 17px;
   letter-spacing: .3px;
 }
 .demo {
   text-decoration: none;
   margin: 45px auto;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
   background-color: #5170DD;
   padding-top: 13px;
   padding-bottom: 17px;
@@ -56,6 +79,7 @@
 .phones {
   position: relative;
   margin-top: 70px;
+
 }
 .phone-1,
 .phone-2,
@@ -101,4 +125,16 @@ i {
 }
 a {
   text-decoration: none;
+}
+a:hover,
+a:link,
+a:visited,
+a:active,
+.title,
+.sub-title h2 {
+  color: #fff;
+}
+.sub-title h4,
+.demo {
+  color: rgba(255,255,255,.5);
 }
