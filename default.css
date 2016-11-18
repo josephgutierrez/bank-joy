@@ -1,9 +1,12 @@
+body {
+  background-color: rgba(61, 70, 100, 0.86);
+  background-image: url("https://www.bankjoy.com/assets/images/backgrounds/background.jpg");
+  background-size: cover;
+  background-position: top center;
+  height: 100vh;
+}
 .container {
   width: 1200px;
-  /*background-image: url("https://www.bankjoy.com/assets/images/backgrounds/background.jpg");
-  background-position: center top fixed;
-  background-size: cover;
-  background-repeat: no-repeat;*/
 }
 .title h1,
 .sub-title h2,
