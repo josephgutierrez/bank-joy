@@ -71,7 +71,7 @@
 .phone-1 {
   z-index: 5;
   margin: 0 auto;
-  right: 40%;
+  right: 42%;
   top: 50px;
   left: 0;
   background-image: url("https://www.bankjoy.com/assets/images/phones/header-phone-left@2x.png");
@@ -91,7 +91,7 @@
 .phone-3 {
   z-index: 6;
   margin: 0 auto;
-  left: 40%;
+  left: 42%;
   top: 50px;
   right: 0;
   background-image: url("https://www.bankjoy.com/assets/images/phones/header-phone-right@2x.png");
